@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radharani PG – Comfortable & Affordable Stay</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #8b3aff;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 26px;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1502672023488-70e25813eb80?fit=crop&w=1400&q=80') center/cover;
+            height: 430px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin: 0 0 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        section {
+            padding: 50px 40px;
+            background: white;
+            margin-bottom: 20px;
+        }
+
+        h2.section-title {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #8b3aff;
+        }
+
+        .about-box, .facility-list, .room-grid, .review-box, .contact-box {
+            max-width: 950px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        .room-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .room {
+            background: #f1f1ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .room img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .facility-list ul {
+            columns: 2;
+            list-style: none;
+            padding: 0;
+        }
+
+        .facility-list li::before {
+            content: "✔️ ";
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+        }
+
+        .gallery-grid img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        .review-card {
+            background: #fafafa;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #8b3aff;
+        }
+
+        .contact-box input, .contact-box textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-box button {
+            background: #8b3aff;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 30px 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Radharani PG</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div>
+        <h2>Comfortable. Safe. Affordable.</h2>
+        <p>Your perfect home away from home.</p>
+    </div>
+</div>
+
+<section id="about">
+    <h2 class="section-title">About Radharani PG</h2>
+    <div class="about-box">
+        <p>
+            Radharani PG is a premium paying guest accommodation designed for students, working
+            professionals, and anyone looking for a peaceful, secure, and comfortable living experience.
+            Located in a well-connected area, our PG provides modern facilities, furnished rooms, hygienic
+            food, and a friendly environment that feels like family.
+        </p>
+
+        <p>
+            Whether you're staying for a month or a full year, we ensure top-notch hospitality, regular
+            cleaning, high-speed internet, healthy meals, and a supportive environment that makes your
+            stay stress-free and productive.
+        </p>
+    </div>
+</section>
+
+<section id="rooms">
+    <h2 class="section-title">Room Options</h2>
+    <div class="room-grid">
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1586105251261-72a756497a11?fit=crop&w=800&q=80">
+            <h3>Single Room</h3>
+            <p>Fully private space with attached washroom. Best for working professionals.</p>
+        </div>
+
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?fit=crop&w=800&q=80">
+            <h3>Double Sharing</h3>
+            <p>Comfortable sharing room with personal wardrobes and study desks.</p>
+        </div>
+
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1560067174-894c00b173a0?fit=crop&w=800&q=80">
+            <h3>Triple Sharing</h3>
+            <p>Budget-friendly option with full facilities and a friendly atmosphere.</p>
+        </div>
+    </div>
+</section>
+
+<section id="facilities">
+    <h2 class="section-title">Facilities</h2>
+    <div class="facility-list">
+        <ul>
+            <li>High-speed Wi-Fi</li>
+            <li>RO Drinking Water</li>
+            <li>24/7 Security & CCTV</li>
+            <li>Fully Furnished Rooms</li>
+            <li>Daily Cleaning</li>
+            <li>Home-cooked Meals</li>
+            <li>Washing Machine Access</li>
+            <li>Power Backup</li>
+            <li>Attached Bathrooms</li>
+            <li>Study Tables & Lockers</li>
+            <li>Parking Area</li>
+            <li>TV and Common Area</li>
+        </ul>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1600573472591-ee6c8c9805fe?fit=crop&w=800&q=80">
+        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?fit=crop&w=800&q=80">
+    </div>
+</section>
+
+<section id="pricing">
+    <h2 class="section-title">Pricing</h2>
+    <div class="about-box">
+        <p><strong>Single Room:</strong> ₹10,000 – ₹14,000 per month</p>
+        <p><strong>Double Sharing:</strong> ₹6,000 – ₹8,000 per month</p>
+        <p><strong>Triple Sharing:</strong> ₹4,500 – ₹6,000 per month</p>
+        <p>Meals: Included in premium packages</p>
+        <p>Security Deposit: One month</p>
+    </div>
+</section>
+
+<section id="reviews">
+    <h2 class="section-title">What Residents Say</h2>
+    <div class="review-box">
+        <div class="review-card">
+            <p>"Best PG I’ve ever stayed in. Clean, hygienic, and peaceful environment. Highly recommended!"</p>
+            <strong>- Rohit S.</strong>
+        </div>
+
+        <div class="review-card">
+            <p>"Food tastes like home. Owners are friendly and helpful. Great experience!"</p>
+            <strong>- Meera K.</strong>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <div class="contact-box">
+        <p><strong>Address:</strong> Radharani PG, Near City Center, Assam</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> radharanipg@example.com</p>
+
+        <h3>Send a Message</h3>
+        <input type="text" placeholder="Your Name">
+        <input type="text" placeholder="Phone Number">
+        <input type="email" placeholder="Email">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button>Send</button>
+    </div>
+</section>
+
+<footer>
+    © 2025 Radharani PG. All rights reserved.
+</footer>
+
+</body>
+</html>
